@@ -9,7 +9,6 @@
 - Conditional Types
 - Infer
 - Distributive Conditional Types
-- Literal Types
 - Simulating Nominal Types (branded types & newtypes)
 - Module Augmentation
 
