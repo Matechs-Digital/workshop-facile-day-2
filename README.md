@@ -1,11 +1,12 @@
 ## Program of Day 2
 
 - Recap of day 1 and remaining exercises
+- Typelevel operators (keyof, typeof, indexed access)
 - Generics
 - Strict Function Types, Covariance and Contravariance
+- Pipe & Pipeable APIs
 - Conditional Types
 - Infer
-- Typelevel operators (keyof, typeof, indexed access)
 - Distributive Conditional Types
 - Literal Types
 - Simulating Nominal Types (branded types & newtypes)
