@@ -1,2 +1,3 @@
 ### Workshop - Project Directory
-This directory shall be populated exclusively by the attendee with his own version of the exercises.
+
+This directory will be used during the workshop to do the execised by the attendees.
