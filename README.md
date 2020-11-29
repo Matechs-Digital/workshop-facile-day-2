@@ -4,13 +4,13 @@
 - Typelevel operators (keyof, typeof, indexed access)
 - Generics
 - Strict Function Types, Covariance and Contravariance
+- Function overloads
 - Pipe & Pipeable APIs
 - Conditional Types
 - Infer
 - Distributive Conditional Types
 - Literal Types
 - Simulating Nominal Types (branded types & newtypes)
-- Function overloads
 - Module Augmentation
 
 ## Repo Organization
