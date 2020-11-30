@@ -27,7 +27,7 @@ function formatError(_: InvalidMessage): E.Either<string, never> {
   }
 }
 
-function validateUser(user: User): E.Either<InvalidMessage, User> {
+function validateUser(user: User) {
   return pipe(
     E.right(user),
     E.chain(validateUsername),

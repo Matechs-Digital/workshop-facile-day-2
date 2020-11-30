@@ -1,3 +1,10 @@
+export function pipe<A, B, C, D, E>(
+  a: A,
+  f0: (_: A) => B,
+  f1: (_: B) => C,
+  f2: (_: C) => D,
+  f3: (_: D) => E
+): E;
 export function pipe<A, B, C, D>(
   a: A,
   f0: (_: A) => B,

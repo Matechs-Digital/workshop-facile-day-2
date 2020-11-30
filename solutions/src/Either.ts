@@ -47,6 +47,16 @@ export function chain<E0, A, B>(
   };
 }
 
+export function flatten<E, E0, A>(
+  ffa: Either<E, Either<E0, A>>
+): Either<E | E0, A> {
+  if (ffa._tag === "Right") {
+    return ffa.right;
+  }
+
+  return ffa;
+}
+
 export function catchAll<E, E1, B>(
   f: (a: E) => Either<E1, B>
 ): <A>(self: Either<E, A>) => Either<E1, A | B> {
