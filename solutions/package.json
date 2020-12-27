@@ -22,6 +22,7 @@
   },
   "sideEffects": false,
   "dependencies": {
+    "@effect-ts/core": "^0.10.12",
     "reflect-metadata": "^0.1.13",
     "source-map-support": "^0.5.19"
   }

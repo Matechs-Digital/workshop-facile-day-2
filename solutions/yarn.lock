@@ -279,6 +279,25 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@effect-ts/core@^0.10.12":
+  version "0.10.12"
+  resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.10.12.tgz#3ad8f75d023cf7d57ef320be987e55b26d462d02"
+  integrity sha512-QWy9Oo27K5aboC+fhZk42cZnZnriIwyIODE1OqaODTpyjIAKk/jXzmQPHQHHB1piKJRIcfsyTQcH87oOBxJFBw==
+  dependencies:
+    "@effect-ts/system" "^0.8.11"
+
+"@effect-ts/system@^0.8.11":
+  version "0.8.11"
+  resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.8.11.tgz#4e84b11e11c25f86718af62a902fdbfb1fcc6d03"
+  integrity sha512-4dvb8qsOmkp8KwNKk/564NUxTPdxYm1FGtLVr3cyPfoh9DcEQmaN1+vgMKe7sO2xTamSii1d8xLFuB643acnVg==
+  dependencies:
+    "@effect-ts/tracing-utils" "^0.2.0"
+
+"@effect-ts/tracing-utils@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@effect-ts/tracing-utils/-/tracing-utils-0.2.0.tgz#ab66cc9a7d807f08e017563a9b280d5e57441604"
+  integrity sha512-QGoEm6mxXSNobbS3Gdz6GPTwhJvoFN76Ith1iCYjoNkEUd0RJDwhj3DAJtAFBh+jtYeNiU9FXazN73f0EL6HRA==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
